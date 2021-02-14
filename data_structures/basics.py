@@ -5,10 +5,9 @@
 # Object - ID, Type & Value
 def tell_about(data_structure):
 	print("-----------------------------------")
-	print("ID: ", id(data_structure))
+	print("Id: ", id(data_structure))
 	print("Type: ", type(data_structure))
-	print("Length: ", len(data_structure))
-	print("Contents: ", data_structure)
+	print("Value: ", data_structure)
 	print("-----------------------------------")
 
 
