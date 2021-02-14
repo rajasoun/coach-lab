@@ -5,7 +5,7 @@
 * Created by Placing elements in [] bracket and separated by commas
 * Items inside the list can be of any data type 
 * Ordered Collection of Objects
-
+* Additional Notes
     * Underlying Implementation is Dynamic Array. Starting index is 0 
 
 ```sh
@@ -26,8 +26,10 @@ what_i_like = [ 9, "iPhone", "Apple", "Black"]
 * Created by Placing elements in {} bracket and separated by commas
 * Items inside the list can be of any data type 
 * UnOrdered Collection of Objects
-
-    * Empty Set is Created Differently  
+* Set does not hold duplicate Items
+* Additional Notes
+    * Empty Set is Created (differently)  using set()
+    * Empty {} will create dict data structure 😊
 
 ```sh 
 
