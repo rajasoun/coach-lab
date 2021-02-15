@@ -22,6 +22,30 @@
 3. is operator compares identity of two objects 
 == operator compares value of two objectors 
 
+### Function
+
+* Group of related statements that perform a specific task.
+* provide better modularity and a high degree of code reusing
+
+Example:
+
+```sh
+## Function to print details (ID, Type & Value) about a python data structure
+def tell_about(data_structure):
+	print("-----------------------------------")
+	print("Id: ", id(data_structure))
+	print("Type: ", type(data_structure))
+	print("Value: ", data_structure)
+	print("-----------------------------------")
+```
+
+Calling the function
+```sh
+tell_about(5)
+```
+
+(Advanced) Quick Read : [Python Modules & Import](https://medium.com/python-features/what-happens-behind-the-scenes-when-we-import-a-module-in-python-2775da153790)
+
 ### Lab
 
 In Console
@@ -32,7 +56,7 @@ $ python3
 >>> alphabet = "abcdefghijklmnopqrstuvwxyz"
 >>> tell_about(alphabet)
 ```
-Assignments:
+#### Assignments:
 
 Use tell_about user defined function with following data types
 ```sh

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-
-# function to get details about a python data structure
-# Object - ID, Type & Value
+## Function to print details (ID, Type & Value) about a python data structure
 def tell_about(data_structure):
 	print("-----------------------------------")
 	print("Id: ", id(data_structure))
@@ -10,8 +8,7 @@ def tell_about(data_structure):
 	print("Value: ", data_structure)
 	print("-----------------------------------")
 
-
-# Ordering and Unordering of Data Structure
+## Ordering and Unordering of Data Structure
 def experiment_order_unorder_ds(data_structure):
 	tell_about(data_structure)
 	ds_list = list(data_structure)
@@ -19,10 +16,8 @@ def experiment_order_unorder_ds(data_structure):
 	ds_set = set(data_structure)
 	tell_about(ds_set)
 
-
-# Mutability & Immutability experiment
+## Mutability & Immutability experiment with changing zero index as example'''
 def experiment_mutability_immutability_ds(data_structure):
-	# changing zero index as example
 	data_structure[0] = "$$experiment_changing_zero_index$$"
 	tell_about(data_structure)
 
