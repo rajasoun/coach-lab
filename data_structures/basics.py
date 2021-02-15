@@ -28,8 +28,8 @@ def experiment_mutability_immutability_ds(data_structure):
 
 
 def main():
-	letters = "abcdefghijklmnopqrstuvwxyz"
-	experiment_order_unorder_ds(letters)
+	alphabet = "abcdefghijklmnopqrstuvwxyz"
+	experiment_order_unorder_ds(alphabet)
 	#experiment_mutability_immutability_ds(letters) #string
 	#experiment_mutability_immutability_ds(list(letters)) #list
 	#experiment_mutability_immutability_ds(set(letters)) #set

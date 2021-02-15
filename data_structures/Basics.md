@@ -21,3 +21,29 @@
 2. type() function returns type of the object 
 3. is operator compares identity of two objects 
 == operator compares value of two objectors 
+
+### Lab
+
+In Console
+```sh
+$ cd data_structures
+$ python3
+>>> from tell_about_ds import *
+>>> alphabet = "abcdefghijklmnopqrstuvwxyz"
+>>> tell_about(alphabet)
+```
+Assignments:
+
+Use tell_about user defined function with following data types
+```sh
+>>> tell_about(5)
+>>> tell_about(5.0)
+>>> tell_about("5")
+>>> tell_about(5j)
+>>> tell_about([1,2,3])
+>>> tell_about({1,2,3})
+>>> tell_about((1,2,3))
+>>> tell_about({'Name': 'Raja','Hobby': 'Coaching'})
+```
+
+> The string  (>>>)  denotes python3 shell. Do not copy it while executing the statements
