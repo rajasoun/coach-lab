@@ -64,5 +64,4 @@ or
 Output of list will be in same order they are specified. So its a ordered collection 
 Output of set will be in different order they are specified, So it a unordered collection
 
-Mutable & Immutable Objects:
 
