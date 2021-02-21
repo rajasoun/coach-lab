@@ -11,5 +11,5 @@ Sprint-1:
 2. What is Python, Java & Go
 3. Basics (CLI, Input and Output)
 4. Haker Rank - Free Subscription 
-5. Instroduction to Data Structures in Python  (Map, List and Set)
+5. Instroduction to Data Structures in Python  (List and Set)
 6. Applying Theory in solving First Hacker Rank Problem
