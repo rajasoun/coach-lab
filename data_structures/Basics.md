@@ -71,3 +71,6 @@ Use tell_about user defined function with following data types
 ```
 
 > The string  (>>>)  denotes python3 shell. Do not copy it while executing the statements
+
+### Mutability & ImMutability of Python objects
+ToDo: Add notes about - experiment_mutability_immutability_ds
